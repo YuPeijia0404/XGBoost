@@ -18,6 +18,7 @@
 ![avatar](/img/objectivefunction.png)
     * loss function -> `l(y_actual, y_predict)` + penalty / regulation -> expressed by parameters
     * Minimise the objective function
-
-
-
+## Additive Training
+* sum of loss between actual y and predict y(sum of the prediction of the previous k-1 functions [constant] and the prediction bt the k-th function + the penalty of the k-th function)
+![avatar](/img/addtraining.png)
+### Taylor Expansion
